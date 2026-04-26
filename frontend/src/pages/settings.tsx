@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { useAuth } from '@/lib/auth-context'
-import { Settings as SettingsIcon, User, Bell, Shield } from 'lucide-react'
+import { User, Bell, Shield } from 'lucide-react'
 
 export function SettingsPage() {
   const { user } = useAuth()
