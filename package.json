@@ -1,0 +1,19 @@
+{
+  "name": "plantmonitoringpwri",
+  "version": "1.0.0",
+  "description": "PWRI Plant Monitoring System - IoT sensor data collection and visualization",
+  "private": true,
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
+    "install:frontend": "cd frontend && npm install"
+  },
+  "keywords": [
+    "plant-monitoring",
+    "iot",
+    "sensors",
+    "supabase"
+  ],
+  "license": "MIT"
+}
